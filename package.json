@@ -1,0 +1,46 @@
+{
+  "name": "nuxt_front",
+  "private": true,
+  "version": "1.0.0.beta",
+  "scripts": {
+    "build": "nuxt build",
+    "analyze": "nuxt analyze",
+    "dev": "nuxi cleanup; nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "PORT=$(grep APP_PORT .env | cut -d '=' -f2) node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/fonts": "^0.7.2",
+    "@nuxtjs/color-mode": "^3.4.4",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/sitemap": "^5.3.5",
+    "autoprefixer": "^10.4.20",
+    "nuxt": "^3.13.1",
+    "nuxt-auth-sanctum": "^0.4.11",
+    "nuxt-gtag": "^3.0.1",
+    "nuxt-icon": "^0.6.10",
+    "nuxt-purgecss": "^2.0.0",
+    "nuxt-schema-org": "^3.3.9",
+    "object-to-formdata": "^4.5.1",
+    "photoswipe": "^5.4.4",
+    "postcss-import": "^16.1.0",
+    "prettier": "3.3.3",
+    "sass": "^1.78.0"
+  },
+  "dependencies": {
+    "@kyvg/vue3-notification": "^3.3.0",
+    "@nuxt/image": "^1.8.0",
+    "dayjs": "^1.11.13",
+    "i18n-iso-countries": "^7.11.3",
+    "laravel-echo": "^1.16.1",
+    "nouislider": "^15.8.1",
+    "pusher-js": "^8.4.0-rc2",
+    "ru-declensions-geo": "^1.0.13",
+    "slugify": "^1.6.6",
+    "swiper": "^11.1.12",
+    "vue-cropperjs": "^5.0.0"
+  }
+}

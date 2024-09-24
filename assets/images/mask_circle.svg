@@ -1,0 +1,17 @@
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 300 300" xml:space="preserve">
+<g>
+	<g>
+		<path d="M150,300h150V150C300,232.8,232.8,300,150,300z"/>
+	</g>
+	<g>
+		<path d="M150,0c82.8,0,150,67.2,150,150V0H150z"/>
+	</g>
+	<g>
+		<path d="M0,150v150h150C67.2,300,0,232.8,0,150z"/>
+	</g>
+	<g>
+		<path d="M150,0H0v150C0,67.2,67.2,0,150,0z"/>
+	</g>
+</g>
+</svg>

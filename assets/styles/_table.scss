@@ -1,0 +1,27 @@
+.table {
+  width: 100%;
+  font-size: var(--text-sm);
+  border-collapse: separate;
+  th {
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid var(--border-color);
+  }
+  td,
+  th {
+    padding: 0.5rem 1rem;
+    @include media-breakpoint-down(md) {
+      padding: 0.5rem 0.5rem;
+    }
+  }
+  tbody {
+    tr:first-of-type {
+      td {
+        border-top: 5px solid transparent;
+      }
+    }
+    tr:nth-of-type(even) {
+      background: var(--body-bg);
+    }
+  }
+}
